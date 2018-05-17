@@ -1,4 +1,4 @@
-import { NbMenuItem } from '@nebular/theme';
+import { NbMenuItem } from '../../app/@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {

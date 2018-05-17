@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "@nebular/theme@2.0.0-rc.8",
+      "/var/www/html/abd-barberly"
+    ]
+  ],
+  "_from": "@nebular/theme@2.0.0-rc.8",
+  "_id": "@nebular/theme@2.0.0-rc.8",
+  "_inBundle": false,
+  "_integrity": "sha512-1BLG4J0ElUOHMjIJQ6lSSzMK+8iaPX1brDVPI3Ol0O0FTiyCPVXugyK09/GNX2Of4xUIZqX7VvNYGywiJ7dUTw==",
+  "_location": "/@nebular/theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@nebular/theme@2.0.0-rc.8",
+    "name": "@nebular/theme",
+    "escapedName": "@nebular%2ftheme",
+    "scope": "@nebular",
+    "rawSpec": "2.0.0-rc.8",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0-rc.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@nebular/theme/-/theme-2.0.0-rc.8.tgz",
+  "_spec": "2.0.0-rc.8",
+  "_where": "/var/www/html/abd-barberly",
+  "author": {
+    "name": "akveo"
+  },
+  "bugs": {
+    "url": "https://github.com/akveo/nebular/issues"
+  },
+  "description": "@nebular/theme",
+  "homepage": "https://github.com/akveo/nebular#readme",
+  "keywords": [
+    "angular",
+    "typescript",
+    "ng2-admin",
+    "ngx-admin",
+    "theme",
+    "nebular"
+  ],
+  "license": "MIT",
+  "main": "./bundles/theme.umd.js",
+  "module": "./index.js",
+  "name": "@nebular/theme",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/router": "^6.0.0",
+    "rxjs": "^6.1.0",
+    "bootstrap": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akveo/nebular.git"
+  },
+  "typings": "./index.d.ts",
+  "version": "2.0.0-rc.8"
+}

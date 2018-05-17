@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      "@nebular/security@2.0.0-rc.8",
+      "/var/www/html/abd-barberly"
+    ]
+  ],
+  "_from": "@nebular/security@2.0.0-rc.8",
+  "_id": "@nebular/security@2.0.0-rc.8",
+  "_inBundle": false,
+  "_integrity": "sha512-aC3q1AR7jmF3Cm/TNT4Rut/ZQcmBrna0zNPxwg5cBSvWAPk3vRXVTYSFPQCNHDs2tyXJz4Xf50Sl2YJQhCiMnw==",
+  "_location": "/@nebular/security",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@nebular/security@2.0.0-rc.8",
+    "name": "@nebular/security",
+    "escapedName": "@nebular%2fsecurity",
+    "scope": "@nebular",
+    "rawSpec": "2.0.0-rc.8",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0-rc.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@nebular/security/-/security-2.0.0-rc.8.tgz",
+  "_spec": "2.0.0-rc.8",
+  "_where": "/var/www/html/abd-barberly",
+  "author": {
+    "name": "akveo"
+  },
+  "bugs": {
+    "url": "https://github.com/akveo/nebular/issues"
+  },
+  "description": "@nebular/security",
+  "homepage": "https://github.com/akveo/nebular#readme",
+  "keywords": [
+    "angular",
+    "typescript",
+    "ng2-admin",
+    "ngx-admin",
+    "theme",
+    "auth",
+    "acl",
+    "security",
+    "login",
+    "register",
+    "nebular"
+  ],
+  "license": "MIT",
+  "main": "./bundles/security.umd.js",
+  "module": "./index.js",
+  "name": "@nebular/security",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/router": "^6.0.0",
+    "rxjs": "~5.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akveo/nebular.git"
+  },
+  "typings": "./index.d.ts",
+  "version": "2.0.0-rc.8"
+}

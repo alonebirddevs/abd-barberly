@@ -17,9 +17,9 @@ import {
   NbCheckboxModule,
   NbPopoverModule,
   NbContextMenuModule,
-} from '@nebular/theme';
+} from '../../app/@nebular/theme';
 
-import { NbSecurityModule } from '@nebular/security';
+import { NbSecurityModule } from '../../app/@nebular/security';
 
 import {
   FooterComponent,
