@@ -1,6 +1,6 @@
 import { ModuleWithProviders, NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NbAuthModule, NbDummyAuthProvider } from '../../app/@nebular/auth';
+import { NbAuthModule, NbEmailPassAuthProvider } from '../../app/@nebular/auth';
 import { NbSecurityModule, NbRoleProvider } from '../../app/@nebular/security';
 import { of as observableOf } from 'rxjs';
 
@@ -38,7 +38,7 @@ export const NB_CORE_PROVIDERS = [
   ...NbAuthModule.forRoot({
     providers: {
       email: {
-        service: NbDummyAuthProvider,
+        service: NbEmailPassAuthProvider,
         config: {
           delay: 3000,
           login: {

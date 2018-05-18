@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NbLayoutModule, NbCardModule, NbCheckboxModule } from '../../@nebular/theme';
 import { NbAuthService } from './services/auth.service';
-import { NbDummyAuthProvider } from './providers/dummy-auth.provider';
 import { NbEmailPassAuthProvider } from './providers/email-pass-auth.provider';
 import { NbTokenService } from './services/token/token.service';
 import { NbAuthSimpleToken } from './services/token/token';
@@ -53,7 +52,6 @@ var NbAuthModule = /** @class */ (function () {
                 },
                 { provide: NbTokenStorage, useClass: NbTokenLocalStorage },
                 NbTokenService,
-                NbDummyAuthProvider,
                 NbEmailPassAuthProvider,
             ],
         };
